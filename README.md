@@ -25,6 +25,18 @@ logs/
     ├── app_log_1.txt
     └── app_log_2.txt
 
+logs/
+├── anomaly_detection/
+│   ├── OpenStack/
+│   │   ├── log_file.txt
+│   │   └── anomaly_label.csv
+│
+├── rca/
+│   ├── OpenStack/
+│   └── AIOpsChallenge/
+│       ├── logs/
+│       └── rca_reports/
+
 
 data/ — Processed, Structured, or Intermediate Data
 This folder stores:
